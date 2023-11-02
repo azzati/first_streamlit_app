@@ -6,10 +6,10 @@ st.title('Snowflake Connection Test')
 
 # Verbinden met Snowflake-database
 connection = snowflake.connector.connect(
-    user='MOHAMED.EL.AZZATI@PGGM.NL',
-    password='Voorjaar2022!',
-    account='do23676.west-europe.azure',
-    warehouse='__CORE'
+    user='mohamed.el.azzati@pggm.nl',
+    password='Voorjaar2023!',
+    account='pggmvb.west-europe.privatelink', 
+    warehouse='COMPUTE_WH'
 )
 
 # Functie om gegevens op te halen
