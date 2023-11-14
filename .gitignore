@@ -1,0 +1,15 @@
+# environment
+.venv*/
+.env/
+venv/
+env/
+
+# secrets
+.env
+secrets.toml
+
+# IDE settings
+.vscode/
+
+# python
+__pycache__/
